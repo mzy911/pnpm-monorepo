@@ -16,7 +16,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function fun2() {
   (0, _pkg().default)();
-  console.log('I am package 1');
+  console.log('I am package 1', 1);
 }
 var _default = fun2;
 exports.default = _default;

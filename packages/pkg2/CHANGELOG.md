@@ -1,5 +1,11 @@
 # @mzy123/pkg2
 
+## 2.0.1
+
+### Patch Changes
+
+- 测试
+
 ## 2.0.0
 
 ### Major Changes

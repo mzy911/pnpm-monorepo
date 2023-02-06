@@ -1,5 +1,13 @@
 # @mzy123/pkg1
 
+## 2.0.1
+
+### Patch Changes
+
+- 测试
+- Updated dependencies
+  - @mzy123/pkg2@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
