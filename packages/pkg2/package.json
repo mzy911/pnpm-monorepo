@@ -1,8 +1,8 @@
 {
   "name": "@mzy123/pkg2",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "father-build"
   },
