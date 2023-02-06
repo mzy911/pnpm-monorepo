@@ -1,0 +1,17 @@
+{
+	"name": "pnpm-monorepo",
+  "private": false,
+	"devDependencies": {
+		"@changesets/cli": "^2.26.0",
+		"father-build": "^1.22.5"
+	},
+	"scripts": {
+		"build": "pnpm --filter=@mzy123/* run build",
+		"clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
+		"change": "changeset",
+		"vp": "pnpm version-packages",
+		"version-packages": "changeset version",
+		"release": "pnpm build && pnpm release:only", 
+		"release:only": "changeset publish --registry=https://registry.npmjs.com/"
+  }
+}

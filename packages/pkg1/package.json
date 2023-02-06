@@ -1,0 +1,11 @@
+{
+  "name": "@mzy123/pkg1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "father-build"
+  },
+  "author": "",
+  "license": "ISC"
+}
